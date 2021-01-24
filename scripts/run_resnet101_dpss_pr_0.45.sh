@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+OMP_NUM_THREADS=4 CUDA_VISIBLE_DEVICES=0,1,2,3 python dpss_main.py --arch resnet101 --dataset ILSVRC2012 --data-dir /home/xfruan/datasets  --flops --pr 0.45 --lambda21 0.01 --lr 0.1 --batch-size 256 --print-freq 200 -j 12 --epochs 100
