@@ -12,7 +12,7 @@
 ### Test
 The pruned models can be found in [Google Drive](https://drive.google.com/drive/folders/1OLTMgAvnEoDO9-_nsD2wqHLi-8LnKRv6).
 ```
-python pruned_models_test.py --arch $architecture$  --model $pruned models$
+python pruned_models_test.py --arch $architecture$  --model $pruned models$ --dataset $dataset$
 ```
 
 ### Train
